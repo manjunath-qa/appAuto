@@ -1,0 +1,5 @@
+deviceName=emulator-5554
+platformName=android
+platformVersion=8.1.0
+appPackage=geekboy.placefinder
+appActivity=geekboy.placefinder.mvvm.search.SearchActivity

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="104962" started-at="2020-04-05T09:10:31Z" finished-at="2020-04-05T09:12:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="104962" started-at="2020-04-05T09:10:31Z" finished-at="2020-04-05T09:12:16Z">
+      <class name="testcases.testcase1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.testcase1@43301423]" name="setup" is-config="true" duration-ms="23903" started-at="2020-04-05T09:10:31Z" finished-at="2020-04-05T09:10:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchPlacesNearBy()[pri:1, instance:testcases.testcase1@43301423]" name="searchPlacesNearBy" duration-ms="79126" started-at="2020-04-05T09:10:55Z" finished-at="2020-04-05T09:12:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPlacesNearBy -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.testcase1@43301423]" name="getResult" is-config="true" duration-ms="960" started-at="2020-04-05T09:12:14Z" finished-at="2020-04-05T09:12:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchPlacesNearBy status=SUCCESS method=testcase1.searchPlacesNearBy()[pri:1, instance:testcases.testcase1@43301423] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.testcase1@43301423]" name="endTest" is-config="true" duration-ms="937" started-at="2020-04-05T09:12:15Z" finished-at="2020-04-05T09:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcases.testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
